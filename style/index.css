@@ -54,8 +54,21 @@ table {
 /* RESET */
 html{
     font-size:62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
 
 h1{
     color:red;
-    font-size: 40;
+    font-size: 8rem;
+    text-align: center;
+}
+nav{
+    border:2px solid green;
+}
+nav a{
+    border:2px solid purple;
+    display: flex;
+    width: 12%
 }
