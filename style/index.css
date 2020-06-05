@@ -57,64 +57,120 @@ html{
 }
 body{
     font-size: 1.6rem;
+    background-color:rgb(18, 26, 19);
+    color:white;
+    font:"Chelsea Market";
+    background: url("https://images.unsplash.com/photo-1553787433-a377f154b018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
 }
 
 h1{
-    color:red;
     font-size: 8rem;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h1:hover{
+    text-transform: uppercase;
 }
 nav{
     display: flex;
     justify-content:center;
+    margin-bottom: 2%;
 }
 nav a{
-    border:2px solid purple;
+    border:4px solid rgb(29, 10, 10);
     width: 8%;
     text-align: center;
+    border-radius: 15px;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    text-decoration: none; 
+    letter-spacing: 0.2rem;
+    color: white;
+    background-color: #800000;
+}
+nav a:hover{
+    background:white;
+     color: rgb(117, 4, 4);
 }
 h2{
     text-align: center;
-    font-size:7.5rem;
+    font-size:4rem;
+    margin-bottom: 3%;
+    letter-spacing: 0.5rem;
+}
+h2:hover{
+    text-transform: uppercase;
 }
 .intro p{
     text-align: center;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 3%;
 }
 
 div.mainphoto{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
-section .mywork{
+.mywork{
     display: flex;
-    flex-wrap: nowrap
-    justify-content: flex-start
-    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
 }
-
 .img1{
-    height: 60vh;
+    height: 45vh;
     width: 15%;
+}
+.img1:hover{
+    border:10px dotted #CD5C5C;
 }
 .img2{
-    height: 60vh;
+    height: 45vh;
     width: 15%;
+}
+.img2:hover{
+    border:10px dotted #CD5C5C;
 }
 .img3{
-    height: 60vh;
+    height: 45vh;
     width: 15%;
+}
+.img3:hover{
+    border:10px dotted #CD5C5C;
 }
 .img4{
-    height: 60vh;
+    height: 45vh;
     width: 15%;
 }
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.img4:hover{
+    border:10px dotted #CD5C5C;
+}
+span{
+    width: 10%;
+    font-size: 3rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+footer a{
+    text-decoration: none; 
+    color: white;
+    border:4px solid white;
+    border-radius: 15px;
+    padding: 0 2%;
+}
+footer a:hover{
+    text-transform: uppercase;
 }
