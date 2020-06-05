@@ -77,9 +77,44 @@ h2{
     text-align: center;
     font-size:7.5rem;
 }
-header section p{
+.intro p{
     text-align: center;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+div.mainphoto{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+section .mywork{
+    display: flex;
+    flex-wrap: nowrap
+    justify-content: flex-start
+    flex-direction: row;
+}
+
+.img1{
+    height: 60vh;
+    width: 15%;
+}
+.img2{
+    height: 60vh;
+    width: 15%;
+}
+.img3{
+    height: 60vh;
+    width: 15%;
+}
+.img4{
+    height: 60vh;
+    width: 15%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
